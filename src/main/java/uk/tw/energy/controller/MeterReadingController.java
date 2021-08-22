@@ -47,5 +47,6 @@ public class MeterReadingController {
         return readings.isPresent()
                 ? ResponseEntity.ok(readings.get())
                 : ResponseEntity.notFound().build();
+
     }
 }
